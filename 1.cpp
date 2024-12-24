@@ -22,6 +22,7 @@ double NewtonInterpol(double x[], double y[], int n, double x_value) {
 }
 
 int main() {
+    setlocale(LC_ALL, "Russian");
     const int MAX_NODES = 10; //максимальное количество узлов
     int n;
     double x[MAX_NODES], y[MAX_NODES]; //массивы для узлов и значений функции
